@@ -42,7 +42,7 @@ classification:
   - 3
   - 3
   - 3
-date: 2022-03-12T23:19:26.305Z
+date: 2022-03-13T19:38:06.499Z
 ---
 <Warning>
 
@@ -150,7 +150,7 @@ It offers a large of healing thanks to <Skill name="Med Kit"/>, <Skill name="Sup
     "weapon1MainType": "Mace",
     "weapon1MainSigil1Id": 74326,
     "weapon1OffType": "Shield",
-    "weapon1OffSigil1Id": 24639
+    "weapon1OffSigilId": 24639,
   },
   "consumables": {
     "foodId": 91690,
@@ -208,8 +208,8 @@ Note that this build variant is optimized for 150 agony resistance. If you have 
 <GridItem sm="6">
 <Card title="Common Utility Skills">
 
-|                                                           |                                                                                                                                                                                               |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                               |                                                                                                                    |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | <Skill name="Personal Battering Ram" size="big" disableText/> | Used to provide CC if no other utility is needed                                                                  |
 | <Skill name="Shift Signet" size="big" disableText/>           | Allows extra mobility when running through trash mobs and provides a useful stunbreak                              |
 | <Skill name="Thumper Turret" size="big" disableText/>         | Deals a large amount of CC. If using <Trait name="Experimental Turrets"/> will also share <Boon name="Protection"/> |
@@ -220,6 +220,7 @@ Note that this build variant is optimized for 150 agony resistance. If you have 
 | <Skill name="Tool Kit" size="big" disableText/>               | Has access to a block with <Skill id="5998"/> and a pull with <Skill id="5996"/>                          |
 | <Skill name="Throw Mine" size="big" disableText/>             | Can be used for some emergency boonstrip                                                                           |
 | <Skill name="Overclock Signet" size="big" disableText/>       | Can be used to resummon your mech if <Skill name="Crash Down"/> is on cooldown                                      |
+| <Skill name="Sneak Gyro" size="big" disableText/>             | A <Specialization name="Scrapper"/> skill, used for group <Effect name="Stealth"/> in T4 fractals.                 |
 
 </Card>
 
@@ -229,11 +230,11 @@ Note that this build variant is optimized for 150 agony resistance. If you have 
 
 <Card title="Situational Traits">
 
-|                                                              |                                                                                                                                               |
-| ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <Trait name="Experimental Turrets" size="big" disableText/>   | Taken if you are running turret skills. Grant boons depending on the deployed skills. |
-| <Trait name="Purity of Purpose" size="big" disableText/>   | Useful on condi heavy and boonstrip heavy encounters to mass condi cleans and generate boons. |
-| <Trait name="Gyroscopic Acceleration" size="big" disableText/>   | In the <Specialization name="Scrapper"/> traitline. Useful to give <Effect name="superspeed"/> for movement and skips. |
+|                                                                  |                                                                                                                        |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| <Trait name="Experimental Turrets" size="big" disableText/>      | Taken if you are running turret skills. Grant boons depending on the deployed skills.                                  |
+| <Trait name="Purity of Purpose" size="big" disableText/>         | Useful on condi heavy and boonstrip heavy encounters to mass condi cleans and generate boons.                      |
+| <Trait name="Gyroscopic Acceleration" size="big" disableText/>   | In the <Specialization name="Scrapper"/> traitline. Useful to share <Effect name="superspeed"/> for movement and skips. |
 
 </Card>
 
@@ -259,7 +260,7 @@ Note that this build variant is optimized for 150 agony resistance. If you have 
 <GridItem sm="6">
 <Card title="Mace">
 
-- <Skill name="Barrier Blast" /> generates <Effect name="Barrier"/> in a 240 radius around you
+- <Skill name="Barrier Blast" /> Your third auto attack skill generates <Effect name="Barrier"/> in a 240 radius around you. When granting <Effect name="Barrier"/> you also grant <Boon name="Alacrity"/> thanks to <Trait name="Mech Frame: Channeling Conduits"/>.
 - <Skill name="Energizing Slam" /> grants <Boon name="Regeneration"/> and <Boon name="Vigor"/> to allies, while applying some <Condition name="Vulnerability"/> to enemies.
 - <Skill name="Rocket Fist Prototype" /> can be used for CC.
 
